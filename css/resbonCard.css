@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+  #herd {
+    padding: 120px !important;
+  }
+  .th{
+    font-size: 15px !important;
+    padding: 5px !important;
+  }
+  #lin1{
+    
+    gap: 11px !important;
+    .ress{
+        margin-top: 27px !important ;
+        span{
+            margin: 20px !important;
+        }
+    }
+    
+  }
+  #lin2{
+    
+    gap: 11px !important;
+    .res{
+        margin-top: 15px !important ;
+        span{
+            margin: 20px !important;
+        }
+    }
+    
+  }
+  .wre{
+    margin-bottom: 15px;
+  }
+  
+}

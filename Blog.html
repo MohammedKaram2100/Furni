@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="shortcut icon" href="./img/download.webp" type="image/x-icon" />
+
+  <link rel="stylesheet" href="/botsrp/bootstrap.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/Shop.css" />
+</head>
+
+<body style="background-color: #eff2f1">
+  <div style="background-color: #3b5d50">
+    <nav class="custom-navbar navbar navbar navbar-expand-md " arial-label="Furni navigation bar"
+      style="background: #3b5d50;">
+
+      <div class="container">
+        <a href="#" class="fs-2 fw-bold text-light navbar-brand">Furni <span class="text-secondary">.</span></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni"
+          aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarsFurni">
+          <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item active me-md-3">
+              <a class="nav-link  text-light  navv" href="index.html" style="font-size: 14px;" targe>Home</a>
+            </li>
+            <li class="me-md-3"><a class="nav-link  text-light navv" href="Shop.html" style="font-size: 14px;">Shop</a>
+            </li>
+            <li class="me-md-3"> <a class="nav-link   text-light navv" href="index.html" style="font-size: 14px;"
+                targe>About us</a>
+            </li>
+            <li class="me-md-3"> <a class="nav-link   text-light navv" href="index.html" style="font-size: 14px;"
+                targe>Blog</a>
+            </li>
+            <li class="me-md-3"> <a class="nav-link   text-light navv" href="index.html" style="font-size: 14px;"
+                targe>Services</a>
+            </li>
+            <li class="me-md-3"> <a class="nav-link   text-light navv" href="index.html" style="font-size: 14px;"
+                targe>Contact us</a>
+            </li>
+
+          </ul>
+
+          <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5 ">
+            <li class="me-md-2"> <a class="nav-link  fs-4 text-light rew" style="font-size: 14px;" href="card.html"><i
+                  class="bi bi-cart2"></i></a>
+            </li>
+            <li class="me-md-2"> <a class="nav-link  fs-4 text-light rew" href="#"><i class="bi bi-person"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+  </div>
+  <div class="col-12 d-lg-flex justify-content-lg-center align-items-lg-center z-0 mb-5"
+    style="background-color: #3b5d50; height: fit-content; position: relative">
+    <!-- <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="255"
+        height="217"
+        class="d-sm-none"
+        viewBox="0 0 255 217"
+        fill="none"
+        style="
+          z-index: 0;
+          right: 100px;
+          left: 444px;
+          top: -56px;
+          position: absolute;
+        "
+      >
+        <circle cx="3.5" cy="3.5" r="3.5" fill="#35736E" />
+        <circle cx="34.5" cy="3.5" r="3.5" fill="#35736E" />
+        <circle cx="65.5" cy="3.5" r="3.5" fill="#35736E" />
+        <circle cx="96.5" cy="3.5" r="3.5" fill="#35736E" />
+        <circle cx="127.5" cy="3.5" r="3.5" fill="#35736E" />
+        <circle cx="158.5" cy="3.5" r="3.5" fill="#35736E" />
+        <circle cx="189.5" cy="3.5" r="3.5" fill="#35736E" />
+        <circle cx="220.5" cy="3.5" r="3.5" fill="#35736E" />
+        <circle cx="251.5" cy="3.5" r="3.5" fill="#35736E" />
+        <circle cx="3.5" cy="33.5" r="3.5" fill="#35736E" />
+        <circle cx="34.5" cy="33.5" r="3.5" fill="#35736E" />
+        <circle cx="65.5" cy="33.5" r="3.5" fill="#35736E" />
+        <circle cx="96.5" cy="33.5" r="3.5" fill="#35736E" />
+        <circle cx="127.5" cy="33.5" r="3.5" fill="#35736E" />
+        <circle cx="158.5" cy="33.5" r="3.5" fill="#35736E" />
+        <circle cx="189.5" cy="33.5" r="3.5" fill="#35736E" />
+        <circle cx="220.5" cy="33.5" r="3.5" fill="#35736E" />
+        <circle cx="251.5" cy="33.5" r="3.5" fill="#35736E" />
+        <circle cx="3.5" cy="63.5" r="3.5" fill="#35736E" />
+        <circle cx="34.5" cy="63.5" r="3.5" fill="#35736E" />
+        <circle cx="65.5" cy="63.5" r="3.5" fill="#35736E" />
+        <circle cx="96.5" cy="63.5" r="3.5" fill="#35736E" />
+        <circle cx="127.5" cy="63.5" r="3.5" fill="#35736E" />
+        <circle cx="158.5" cy="63.5" r="3.5" fill="#35736E" />
+        <circle cx="189.5" cy="63.5" r="3.5" fill="#35736E" />
+        <circle cx="220.5" cy="63.5" r="3.5" fill="#35736E" />
+        <circle cx="251.5" cy="63.5" r="3.5" fill="#35736E" />
+        <circle cx="3.5" cy="93.5" r="3.5" fill="#35736E" />
+        <circle cx="34.5" cy="93.5" r="3.5" fill="#35736E" />
+        <circle cx="65.5" cy="93.5" r="3.5" fill="#35736E" />
+        <circle cx="96.5" cy="93.5" r="3.5" fill="#35736E" />
+        <circle cx="127.5" cy="93.5" r="3.5" fill="#35736E" />
+        <circle cx="158.5" cy="93.5" r="3.5" fill="#35736E" />
+        <circle cx="189.5" cy="93.5" r="3.5" fill="#35736E" />
+        <circle cx="220.5" cy="93.5" r="3.5" fill="#35736E" />
+        <circle cx="251.5" cy="93.5" r="3.5" fill="#35736E" />
+        <circle cx="3.5" cy="123.5" r="3.5" fill="#35736E" />
+        <circle cx="34.5" cy="123.5" r="3.5" fill="#35736E" />
+        <circle cx="65.5" cy="123.5" r="3.5" fill="#35736E" />
+        <circle cx="96.5" cy="123.5" r="3.5" fill="#35736E" />
+        <circle cx="127.5" cy="123.5" r="3.5" fill="#35736E" />
+        <circle cx="158.5" cy="123.5" r="3.5" fill="#35736E" />
+        <circle cx="189.5" cy="123.5" r="3.5" fill="#35736E" />
+        <circle cx="220.5" cy="123.5" r="3.5" fill="#35736E" />
+        <circle cx="251.5" cy="123.5" r="3.5" fill="#35736E" />
+        <circle cx="3.5" cy="153.5" r="3.5" fill="#35736E" />
+        <circle cx="34.5" cy="153.5" r="3.5" fill="#35736E" />
+        <circle cx="65.5" cy="153.5" r="3.5" fill="#35736E" />
+        <circle cx="96.5" cy="153.5" r="3.5" fill="#35736E" />
+        <circle cx="127.5" cy="153.5" r="3.5" fill="#35736E" />
+        <circle cx="158.5" cy="153.5" r="3.5" fill="#35736E" />
+        <circle cx="189.5" cy="153.5" r="3.5" fill="#35736E" />
+        <circle cx="220.5" cy="153.5" r="3.5" fill="#35736E" />
+        <circle cx="251.5" cy="153.5" r="3.5" fill="#35736E" />
+        <circle cx="3.5" cy="183.5" r="3.5" fill="#35736E" />
+        <circle cx="34.5" cy="183.5" r="3.5" fill="#35736E" />
+        <circle cx="65.5" cy="183.5" r="3.5" fill="#35736E" />
+        <circle cx="96.5" cy="183.5" r="3.5" fill="#35736E" />
+        <circle cx="127.5" cy="183.5" r="3.5" fill="#35736E" />
+        <circle cx="158.5" cy="183.5" r="3.5" fill="#35736E" />
+        <circle cx="189.5" cy="183.5" r="3.5" fill="#35736E" />
+        <circle cx="220.5" cy="183.5" r="3.5" fill="#35736E" />
+        <circle cx="251.5" cy="183.5" r="3.5" fill="#35736E" />
+        <circle cx="3.5" cy="213.5" r="3.5" fill="#35736E" />
+        <circle cx="34.5" cy="213.5" r="3.5" fill="#35736E" />
+        <circle cx="65.5" cy="213.5" r="3.5" fill="#35736E" />
+        <circle cx="96.5" cy="213.5" r="3.5" fill="#35736E" />
+        <circle cx="127.5" cy="213.5" r="3.5" fill="#35736E" />
+        <circle cx="158.5" cy="213.5" r="3.5" fill="#35736E" />
+        <circle cx="189.5" cy="213.5" r="3.5" fill="#35736E" />
+        <circle cx="220.5" cy="213.5" r="3.5" fill="#35736E" />
+        <circle cx="251.5" cy="213.5" r="3.5" fill="#35736E" />
+      </svg> -->
+    <div class="col-lg-6 col-12 p-4">
+      <div class="ms-lg-5  ">
+        <p class="fs-1 fw-bold text-white w-75 intro-excerpt p-5 ps-0 pb-2">
+          Blog
+        </p>
+        <p class=" " style="
+              width: 500px;
+              max-width: 80%;
+              color: #ffffff80;
+              font-size: 14px;
+              margin-bottom: 35px;
+              line-height: 30px;
+            ">
+          Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+          velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+        </p>
+        <div class="d-flex gap-2">
+          <a class="btn btn-secondary bg-warning p-3 fw-semibold rounded-5" style="color: #2f2f2f; width: 141px"
+            href="#">Shop Now</a>
+          <a class="btn btn-secondary bg-transparent p-3 rounded-5 fw-semibold border border-2 border-secondary me-3 boor"
+            style="width: 141px" href="#">Explor</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-12">
+      <!-- <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="255"
+          height="217"
+          viewBox="0 0 255 217"
+          fill="none"
+        >
+          <circle cx="3.5" cy="3.5" r="3.5" fill="#35736E" />
+          <circle cx="34.5" cy="3.5" r="3.5" fill="#35736E" />
+          <circle cx="65.5" cy="3.5" r="3.5" fill="#35736E" />
+          <circle cx="96.5" cy="3.5" r="3.5" fill="#35736E" />
+          <circle cx="127.5" cy="3.5" r="3.5" fill="#35736E" />
+          <circle cx="158.5" cy="3.5" r="3.5" fill="#35736E" />
+          <circle cx="189.5" cy="3.5" r="3.5" fill="#35736E" />
+          <circle cx="220.5" cy="3.5" r="3.5" fill="#35736E" />
+          <circle cx="251.5" cy="3.5" r="3.5" fill="#35736E" />
+          <circle cx="3.5" cy="33.5" r="3.5" fill="#35736E" />
+          <circle cx="34.5" cy="33.5" r="3.5" fill="#35736E" />
+          <circle cx="65.5" cy="33.5" r="3.5" fill="#35736E" />
+          <circle cx="96.5" cy="33.5" r="3.5" fill="#35736E" />
+          <circle cx="127.5" cy="33.5" r="3.5" fill="#35736E" />
+          <circle cx="158.5" cy="33.5" r="3.5" fill="#35736E" />
+          <circle cx="189.5" cy="33.5" r="3.5" fill="#35736E" />
+          <circle cx="220.5" cy="33.5" r="3.5" fill="#35736E" />
+          <circle cx="251.5" cy="33.5" r="3.5" fill="#35736E" />
+          <circle cx="3.5" cy="63.5" r="3.5" fill="#35736E" />
+          <circle cx="34.5" cy="63.5" r="3.5" fill="#35736E" />
+          <circle cx="65.5" cy="63.5" r="3.5" fill="#35736E" />
+          <circle cx="96.5" cy="63.5" r="3.5" fill="#35736E" />
+          <circle cx="127.5" cy="63.5" r="3.5" fill="#35736E" />
+          <circle cx="158.5" cy="63.5" r="3.5" fill="#35736E" />
+          <circle cx="189.5" cy="63.5" r="3.5" fill="#35736E" />
+          <circle cx="220.5" cy="63.5" r="3.5" fill="#35736E" />
+          <circle cx="251.5" cy="63.5" r="3.5" fill="#35736E" />
+          <circle cx="3.5" cy="93.5" r="3.5" fill="#35736E" />
+          <circle cx="34.5" cy="93.5" r="3.5" fill="#35736E" />
+          <circle cx="65.5" cy="93.5" r="3.5" fill="#35736E" />
+          <circle cx="96.5" cy="93.5" r="3.5" fill="#35736E" />
+          <circle cx="127.5" cy="93.5" r="3.5" fill="#35736E" />
+          <circle cx="158.5" cy="93.5" r="3.5" fill="#35736E" />
+          <circle cx="189.5" cy="93.5" r="3.5" fill="#35736E" />
+          <circle cx="220.5" cy="93.5" r="3.5" fill="#35736E" />
+          <circle cx="251.5" cy="93.5" r="3.5" fill="#35736E" />
+          <circle cx="3.5" cy="123.5" r="3.5" fill="#35736E" />
+          <circle cx="34.5" cy="123.5" r="3.5" fill="#35736E" />
+          <circle cx="65.5" cy="123.5" r="3.5" fill="#35736E" />
+          <circle cx="96.5" cy="123.5" r="3.5" fill="#35736E" />
+          <circle cx="127.5" cy="123.5" r="3.5" fill="#35736E" />
+          <circle cx="158.5" cy="123.5" r="3.5" fill="#35736E" />
+          <circle cx="189.5" cy="123.5" r="3.5" fill="#35736E" />
+          <circle cx="220.5" cy="123.5" r="3.5" fill="#35736E" />
+          <circle cx="251.5" cy="123.5" r="3.5" fill="#35736E" />
+          <circle cx="3.5" cy="153.5" r="3.5" fill="#35736E" />
+          <circle cx="34.5" cy="153.5" r="3.5" fill="#35736E" />
+          <circle cx="65.5" cy="153.5" r="3.5" fill="#35736E" />
+          <circle cx="96.5" cy="153.5" r="3.5" fill="#35736E" />
+          <circle cx="127.5" cy="153.5" r="3.5" fill="#35736E" />
+          <circle cx="158.5" cy="153.5" r="3.5" fill="#35736E" />
+          <circle cx="189.5" cy="153.5" r="3.5" fill="#35736E" />
+          <circle cx="220.5" cy="153.5" r="3.5" fill="#35736E" />
+          <circle cx="251.5" cy="153.5" r="3.5" fill="#35736E" />
+          <circle cx="3.5" cy="183.5" r="3.5" fill="#35736E" />
+          <circle cx="34.5" cy="183.5" r="3.5" fill="#35736E" />
+          <circle cx="65.5" cy="183.5" r="3.5" fill="#35736E" />
+          <circle cx="96.5" cy="183.5" r="3.5" fill="#35736E" />
+          <circle cx="127.5" cy="183.5" r="3.5" fill="#35736E" />
+          <circle cx="158.5" cy="183.5" r="3.5" fill="#35736E" />
+          <circle cx="189.5" cy="183.5" r="3.5" fill="#35736E" />
+          <circle cx="220.5" cy="183.5" r="3.5" fill="#35736E" />
+          <circle cx="251.5" cy="183.5" r="3.5" fill="#35736E" />
+          <circle cx="3.5" cy="213.5" r="3.5" fill="#35736E" />
+          <circle cx="34.5" cy="213.5" r="3.5" fill="#35736E" />
+          <circle cx="65.5" cy="213.5" r="3.5" fill="#35736E" />
+          <circle cx="96.5" cy="213.5" r="3.5" fill="#35736E" />
+          <circle cx="127.5" cy="213.5" r="3.5" fill="#35736E" />
+          <circle cx="158.5" cy="213.5" r="3.5" fill="#35736E" />
+          <circle cx="189.5" cy="213.5" r="3.5" fill="#35736E" />
+          <circle cx="220.5" cy="213.5" r="3.5" fill="#35736E" />
+          <circle cx="251.5" cy="213.5" r="3.5" fill="#35736E" />
+        </svg> -->
+
+      <img class="img-fluid" style="z-index: 4" src="./img/couch.png" />
+    </div>
+  </div>
+  <div class="row container mx-auto post mb-5">
+    <div class="col-lg-4">
+      <img class="rounded-4 img-fluid" src="./img/post-1.jpg" alt="" srcset="" />
+      <p class="fs-normal fw-semibold text-dark p-3">
+        First Time Home Owner Ideas
+        <span class="text-secondary fw-normal" style="font-size: 14px">by</span>
+        Kristin Watson
+        <span class="text-secondary" style="font-size: 14px">on</span> Dec 19,
+        2021
+      </p>
+    </div>
+    <div class="col-lg-4">
+      <img class="rounded-4 img-fluid" src="./img/post-2.jpg" alt="" srcset="" />
+      <p class="fs-normal fw-semibold text-dark p-3">
+        How To Keep Your Furniture Clean
+        <span class="text-secondary fw-normal" style="font-size: 14px">by</span>
+        Kristin Watson
+        <span class="text-secondary" style="font-size: 14px">on</span> Dec 19,
+        2021
+      </p>
+    </div>
+    <div class="col-lg-4">
+      <img class="rounded-4 img-fluid" src="./img/post-3.jpg" alt="" srcset="" />
+      <p class="fs-normal fw-semibold text-dark p-3">
+        First Time Home Owner Ideas
+        <span class="text-secondary fw-normal" style="font-size: 14px">by</span>
+        Kristin Watson
+        <span class="text-secondary" style="font-size: 14px">on</span> Dec 19,
+        2021
+      </p>
+    </div>
+  </div>
+  <div class="row container mx-auto post mb-5">
+    <div class="col-lg-4">
+      <img class="rounded-4 img-fluid" src="./img/post-1.jpg" alt="" srcset="" />
+      <p class="fs-normal fw-semibold text-dark p-3">
+        First Time Home Owner Ideas
+        <span class="text-secondary fw-normal" style="font-size: 14px">by</span>
+        Kristin Watson
+        <span class="text-secondary" style="font-size: 14px">on</span> Dec 19,
+        2021
+      </p>
+    </div>
+    <div class="col-lg-4">
+      <img class="rounded-4 img-fluid" src="./img/post-2.jpg" alt="" srcset="" />
+      <p class="fs-normal fw-semibold text-dark p-3">
+        How To Keep Your Furniture Clean
+        <span class="text-secondary fw-normal" style="font-size: 14px">by</span>
+        Kristin Watson
+        <span class="text-secondary" style="font-size: 14px">on</span> Dec 19,
+        2021
+      </p>
+    </div>
+    <div class="col-lg-4">
+      <img class="rounded-4 img-fluid" src="./img/post-3.jpg" alt="" srcset="" />
+      <p class="fs-normal fw-semibold text-dark p-3">
+        First Time Home Owner Ideas
+        <span class="text-secondary fw-normal" style="font-size: 14px">by</span>
+        Kristin Watson
+        <span class="text-secondary" style="font-size: 14px">on</span> Dec 19,
+        2021
+      </p>
+    </div>
+  </div>
+  <div class="row container mx-auto post mb-5">
+    <div class="col-lg-4">
+      <img class="rounded-4 img-fluid" src="./img/post-1.jpg" alt="" srcset="" />
+      <p class="fs-normal fw-semibold text-dark p-3">
+        First Time Home Owner Ideas
+        <span class="text-secondary fw-normal" style="font-size: 14px">by</span>
+        Kristin Watson
+        <span class="text-secondary" style="font-size: 14px">on</span> Dec 19,
+        2021
+      </p>
+    </div>
+    <div class="col-lg-4">
+      <img class="rounded-4 img-fluid" src="./img/post-2.jpg" alt="" srcset="" />
+      <p class="fs-normal fw-semibold text-dark p-3">
+        How To Keep Your Furniture Clean
+        <span class="text-secondary fw-normal" style="font-size: 14px">by</span>
+        Kristin Watson
+        <span class="text-secondary" style="font-size: 14px">on</span> Dec 19,
+        2021
+      </p>
+    </div>
+    <div class="col-lg-4">
+      <img class="rounded-4 img-fluid" src="./img/post-3.jpg" alt="" srcset="" />
+      <p class="fs-normal fw-semibold text-dark p-3">
+        First Time Home Owner Ideas
+        <span class="text-secondary fw-normal" style="font-size: 14px">by</span>
+        Kristin Watson
+        <span class="text-secondary" style="font-size: 14px">on</span> Dec 19,
+        2021
+      </p>
+    </div>
+  </div>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="testimonial-block text-center">
+          <blockquote class="mb-5">
+            <p class="text-secondary w-75 text-center mx-auto" style="font-size: 30xp">
+              “Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
+              quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+              vulputate velit imperdiet dolor tempor tristique. Pellentesque
+              habitant morbi tristique senectus et netus et malesuada fames ac
+              turpis egestas. Integer convallis volutpat dui quis
+              scelerisque.”
+            </p>
+          </blockquote>
+
+          <div class="author-info">
+            <div class="author-pic">
+              <img src="./img/person-1.png" alt="Maria Jones" class="img-fluid"
+                style="width: 80px; border-radius: 50%" />
+            </div>
+            <p class="fw-bold">Maria Jones</p>
+            <span class="position d-block mb-3 text-secondary" style="font-size: 14px">CEO, Co-Founder, XYZ Inc.</span>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="testimonial-block text-center">
+          <blockquote class="mb-5">
+            <p class="text-secondary w-75 text-center mx-auto" style="font-size: 30xp">
+              “Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
+              quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+              vulputate velit imperdiet dolor tempor tristique. Pellentesque
+              habitant morbi tristique senectus et netus et malesuada fames ac
+              turpis egestas. Integer convallis volutpat dui quis
+              scelerisque.”
+            </p>
+          </blockquote>
+
+          <div class="author-info">
+            <div class="author-pic">
+              <img src="./img/person-1.png" alt="Maria Jones" class="img-fluid"
+                style="width: 80px; border-radius: 50%" />
+            </div>
+            <p class="fw-bold">Maria Jones</p>
+            <span class="position d-block mb-3 text-secondary" style="font-size: 14px">CEO, Co-Founder, XYZ Inc.</span>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="testimonial-block text-center">
+          <blockquote class="mb-5">
+            <p class="text-secondary w-75 text-center mx-auto" style="font-size: 30xp">
+              “Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
+              quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+              vulputate velit imperdiet dolor tempor tristique. Pellentesque
+              habitant morbi tristique senectus et netus et malesuada fames ac
+              turpis egestas. Integer convallis volutpat dui quis
+              scelerisque.”
+            </p>
+          </blockquote>
+
+          <div class="author-info">
+            <div class="author-pic">
+              <img src="./img/person-1.png" alt="Maria Jones" class="img-fluid"
+                style="width: 80px; border-radius: 50%" />
+            </div>
+            <p class="fw-bold">Maria Jones</p>
+            <span class="position d-block mb-3 text-secondary" style="font-size: 14px">CEO, Co-Founder, XYZ Inc.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev crcol" type="button" style="width: 48px;height: 48px;margin-left: 30px;"
+      data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev" fdprocessedid="jnc7w">
+      <span class="carousel-control-prev-icon  rounded-5" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next crcol" type="button" data-bs-target="#carouselExampleAutoplaying"
+      style="width: 48px;height: 48px;margin-right: 30px;" data-bs-slide="next">
+      <span class="carousel-control-next-icon " style="border-radius: 50% ;" aria-hidden="true"></span>
+      <span class="visually-hidden fs-6">Next</span>
+    </button>
+  </div>
+  <div class="bg-white" style="height: 600px;
+
+padding-top: 30px;
+">
+    <footer class="  w-100 position-relative h-50 container my-5  ">
+
+      <img src="/img/sofa.png" class="img-fluid position-absolute w-lg-75 "
+        style="top: -163px; right: 0%; width: 30%" />
+      <div class="col-8  col-lg-8 ">
+        <div class="d-md-flex justify-content-md-start position-relative icon  ">
+          <img src="/img/envelope-outline.svg" />
+          <p class="ms-4">Subscribe to Newsletter</p>
+        </div>
+        <div class="subscription-form d-lg-flex gap-lg-3 col-12   ">
+          <input class="form-control shadow-none p-3 border border-secondary-emphasis " type="text"
+            placeholder="Enter your name" />
+          <input type="text" class="form-control shadow-none p-3 border border-secondary-emphasis  "
+            placeholder="Enter your name" />
+          <button href="#" type="submit" class="btn btn-rounded " data-mdb-ripple-color="#ffffff" style="width: 100px; height: 60px;
+            background: #3b5d50;
+            ">
+            <span class="fa fa-paper-plane text-white"></span>
+          </button>
+        </div>
+      </div>
+      <div class="d-md-flex justify-content-around row mt-5  ">
+        <div class="col-lg-4 flex-1  alink">
+          <h2>Furni.</h1>
+            <p class="w-75 lh-lg " style="color: #6a6a6a; font-size: 14px;">Donec facilisis quam ut purus rutrum
+              lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit
+              imperdiet dolor tempor tristique. Pellentesque habitant</p>
+            <a class="btn  rounded-5    mx-1 con" type="submit"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="btn  rounded-5 bg-opacity-25 mx-1 con" type="submit"><i class="fa-brands fa-twitter"></i></a>
+            <a class="btn s rounded-5  mx-1 con" type="submit"><i class="fa-brands fa-instagram"></i></a>
+            <a class="btn  rounded-5 bg-opacity-25 mx-1 con" type="submit"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+        <div class="col-md-2  link">
+          <ul class=" mt-5 d-flex flex-column gap-4  ">
+            <a class="text-decoration-none d-block " style="font-size: 14px;" href="#">About us</a>
+            <a class="text-decoration-none " style="font-size: 14px;" href="#">Services
+            </a>
+            <a class="text-decoration-none d-block " style="font-size: 14px;" href="#">Blog</a>
+            <a class="text-decoration-none d-block " style="font-size: 14px;" href="#">Contact us</a>
+
+          </ul>
+        </div>
+        <div class="col-md-2 link">
+          <ul class=" mt-5 d-flex flex-column gap-4 ">
+            <a class="text-decoration-none d-block " style="font-size: 14px;" href="#">Support</a>
+            <a class="text-decoration-none " style="font-size: 14px;" href="#">Knowledge base
+            </a>
+
+            <a class="text-decoration-none d-block " style="font-size: 14px;" href="#">Live chat </a>
+
+          </ul>
+        </div>
+        <div class="col-md-2 link">
+          <ul class=" mt-5 d-flex flex-column gap-4 ">
+            <a class="text-decoration-none d-block " style="font-size: 14px;" href="#">Jobs</a>
+            <a class="text-decoration-none " style="font-size: 14px;" href="#">Our team
+            </a>
+            <a class="text-decoration-none d-block " style="font-size: 14px;" href="#">Leadership</a>
+            <a class="text-decoration-none d-block " style="font-size: 14px;" href="#">Privacy Policy
+            </a>
+
+          </ul>
+        </div>
+        <div class="col-md-2 link">
+          <ul class=" mt-5 d-flex flex-column gap-4  ">
+            <a class="text-decoration-none d-block " style="font-size: 14px;" href="#">Nordic Chair</a>
+            <a class="text-decoration-none " style="font-size: 14px;" href="#">Kruzo Aero
+            </a>
+            <a class="text-decoration-none d-block " style="font-size: 14px;" href="#">Ergonomic Chair</a>
+
+          </ul>
+        </div>
+
+
+      </div>
+
+      <hr class="container">
+      <div class="mt-2  d-flex justify-content-between container text-center">
+        <p style="color: #6a6a6a; font-size: 14px;">Copyright ©2025. All Rights Reserved. — Designed with love by <span
+            style="color: #2f2f2f;font-size: 14px;"> Untree.co</span> </p>
+        <p style="color: #6a6a6a; font-size: 14px;">Terms & Conditions <span
+            style="color: #2f2f2f;font-size: 14px;">Privacy Policy</span>
+        </p>
+      </div>
+      <p class="container" style="color: #6a6a6a; font-size: 14px;">Distributed By <span
+          style="color: #2f2f2f;font-size: 14px;">ThemeWagon</span></p>
+
+    </footer>
+  </div>
+
+  <script src="botsrp/jquery.slim.min.js"></script>
+  <script src="botsrp/bootstrap.js"></script>
+  <script src="botsrp/popper.min.js"></script>
+</body>
+
+</html>
